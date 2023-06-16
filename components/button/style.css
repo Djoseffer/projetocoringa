@@ -1,0 +1,33 @@
+.App{
+    background-color: rgb(72, 71, 71);
+    width: 100%;
+    height: 100%;
+}
+
+.containerButoon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(61, 28, 61);
+    color: wheat;
+    border: none;
+    border-radius: 8px;
+}
+
+.disableButton{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 8px;
+}
+
+span {
+    display: block;
+}

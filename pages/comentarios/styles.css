@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background: black;   
+}
+
+.coments, .coments2, .coments3 {
+    width: 100%;
+    color: aliceblue;
+}
+
+#autor1, #autor2, #autor3 {
+    color: aliceblue;
+    font-size: x-large
+}
+
+.comentarios, .comentarios2, .comentarios3 { 
+    width: 400px;
+    height: 100%; 
+}
+
+.pai {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    height: 200px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    color: #fff;
+    font-family: 'kdam Thmor Pro', sans-serif;
+    margin-top: 10px;
+}
+
+@media( max-width: 768px){
+nav { display: block;
+    align-items: center;
+}
+
+.content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.pai {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.comentarios, .comentarios2, .comentarios3 {
+    margin-top: 15px; 
+    margin-left: 2%;
+    width: 98%;
+    height: 100%;   
+}
+}
+
+@media( max-width: 480px){
+*{
+    background: transparent;
+}
+
+.content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+    
+.description {
+    width: 100%;
+}
+    
+.button {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.pai {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.comentarios, .comentarios2, .comentarios3 {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+}
